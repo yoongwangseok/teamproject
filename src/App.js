@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/gamgyul-social-market'>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/products" element={<Products />} />
