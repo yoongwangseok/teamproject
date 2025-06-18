@@ -1,6 +1,6 @@
 {
-  "homepage": "https://minerkyi.github.io/vite/",
-  "name": "my-app",
+  "homepage": "https://minerkyi.github.io/gamgyul-social-market",
+  "name": "gamgyul-social-market",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
