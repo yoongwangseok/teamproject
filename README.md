@@ -34,7 +34,13 @@
 팀원 | 우영기 | splash, 채팅 목록, 채팅방
 
 ## 2. 개발 환경
-### 2.1 프로젝트 생성 / 실행
+
+### 2.1 개발 환경
+- 개발 언어: HTML, JavaScript, css
+- 라이브러리 & 프레임웍: Node.js, react
+- 빌드 & 배포: vite, GitHub Actions
+
+### 2.2 프로젝트 생성 / 실행
 - git clone https://github.com/minerkyi/gamgyul-social-market
 - cd gamgyul-social-market
 - npm install
@@ -42,7 +48,7 @@
 - npm i styled-reset
 - npm run dev
 
-### 2.2 코딩 컨벤션
+### 2.3 코딩 컨벤션
 #### 웹 개발 코딩 컨벤션 가이드
 
 > HTML, CSS, JavaScript의 기본적인 코딩 컨벤션을 정리한 문서입니다.
@@ -227,7 +233,7 @@ function processUserData(userData) {
 }
 ```
 
-### 2.1 배포 URL
+### 2.4 배포 URL
 - <https://github.com/minerkyi/gamgyul-social-market>
 - <https://minerkyi.github.io/gamgyul-social-market/>
 - 테스트용 계정
@@ -236,7 +242,7 @@ function processUserData(userData) {
   pw : 
   ```
   
-### 2.2 연동 API
+### 2.5 연동 API
 - [API 명세](https://www.notion.so/oreumi/API-19debaa8982b8129aaa9f8c4678447ac)
 - 요청 URL: <https://dev.wenivops.co.kr/services/mandarin>
 
