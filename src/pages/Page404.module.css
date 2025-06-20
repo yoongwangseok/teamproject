@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.error-icon {
+  width: 158px;
+  height: 158px;
+  margin-bottom: 30px;
+  background-image: url(../assets/icon-404.png);
+  background-repeat: no-repeat;
+}
+
+.error-message {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.retry-button {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.retry-button:hover {
+  background-color: #e55a2b;
+}
+
+.red-dot {
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}

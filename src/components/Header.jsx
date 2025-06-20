@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
+import iconSearch from '../assets/icon/icon-search.png'
 
 export default function Header({title}) {
 
   return (
-    <header>
-      <h1 className={styles.h1}>{title}</h1>
+    <header className={styles.header}>
+      <h1 className={styles["header-title"]}>감귤마켓 피드</h1>
+      <img className={styles["search-icon"]} src={iconSearch} alt="검색" />
     </header>
   );
 }

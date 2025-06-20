@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Index from './pages/Index';
 import Products from './pages/products/Products';
+import Page404 from './pages/Page404';
 import Footer from './components/Footer';
 import { FooterProvider } from "./contexts/FooterContext";
 
@@ -12,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Index />} />
         <Route path='/products' element={<Products />} />
+        <Route path='*' element={<Page404 />} />
       </Routes>
       <FooterProvider>
         <Footer />
@@ -20,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
