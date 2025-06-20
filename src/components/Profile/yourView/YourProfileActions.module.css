@@ -1,0 +1,32 @@
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 0;
+}
+
+.iconButton {
+  width: 3.4rem;
+  height: 3.4rem;
+  padding: 0;
+  border: 0.1rem solid #dbdbdb;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followButton {
+  width: 12rem;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 3rem;
+  background-color: #f26e22;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}

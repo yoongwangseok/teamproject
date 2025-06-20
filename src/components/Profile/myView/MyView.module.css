@@ -1,0 +1,28 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 60px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+.profileButton {
+  width: 120px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #767676;
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
