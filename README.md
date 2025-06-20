@@ -238,7 +238,7 @@ function processUserData(userData) {
   
 ### 2.2 연동 API
 - [API 명세](https://www.notion.so/oreumi/API-19debaa8982b8129aaa9f8c4678447ac)
-- 요청 URL: <https://estapi.mandarin.weniv.co.kr/>
+- 요청 URL: <https://dev.wenivops.co.kr/services/mandarin>
 
   | URL                          | Note                            |
   |------------------------------|---------------------------------|
