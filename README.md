@@ -39,6 +39,42 @@
 - 개발 언어: HTML, JavaScript, css
 - 라이브러리 & 프레임웍: Node.js, react
 - 빌드 & 배포: vite, GitHub Actions
+- CI/CD
+  - GitHub Actions를 사용하여 통합 및 배포
+  - .github/workflows/deploy.yml
+  ```
+  name: Deploy
+
+  on:
+    push:
+      branches: [main]
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - run: npm ci
+        - run: npm run build
+        - uses: actions/configure-pages@v5
+        - uses: actions/upload-pages-artifact@v3
+          with:
+            path: "./dist"
+  
+    deploy:
+      needs: build
+      permissions:
+        pages: write
+        id-token: write
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/deploy-pages@v4
+          id: deployment
+  ```
+  
 
 ### 2.2 프로젝트 생성 / 실행
 - git clone https://github.com/minerkyi/gamgyul-social-market
