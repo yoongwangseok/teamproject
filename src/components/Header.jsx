@@ -7,7 +7,7 @@ export default function Header({title}) {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles["header-title"]}>감귤마켓 피드</h1>
+      <h1 className={styles["header-title"]}>{title}</h1>
       <img className={styles["search-icon"]} src={iconSearch} alt="검색" />
     </header>
   );
