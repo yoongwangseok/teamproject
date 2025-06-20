@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Index from './pages/Index';
 import Products from './pages/products/Products';
+import Footer from './components/Footer';
+import { FooterProvider } from "./contexts/FooterContext";
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
         <Route path='/' element={<Index />} />
         <Route path='/products' element={<Products />} />
       </Routes>
+      <FooterProvider>
+        <Footer />
+      </FooterProvider>
     </BrowserRouter>
   )
 }
