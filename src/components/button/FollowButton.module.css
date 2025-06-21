@@ -1,0 +1,17 @@
+.followButton {
+  background-color: #f26e22;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.unfollowButton {
+  background-color: #fff;
+  color: #666;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

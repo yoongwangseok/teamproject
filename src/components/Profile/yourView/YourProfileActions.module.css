@@ -23,11 +23,28 @@
 .followButton {
   width: 120px;
   padding: 8px 0;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 30px;
   background-color: #f26e22;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.unfollowButton {
+  width: 120px;
+  padding: 8px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.followButton,
+.unfollowButton {
+  box-sizing: border-box;
 }
